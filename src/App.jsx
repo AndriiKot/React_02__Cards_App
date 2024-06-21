@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
 function App() {
-  const number = '02'
+  const number = "02";
+  const obj = {
+    name: "Andrii",
+  }
   return (
     <>
-      <h1>Only React {number}</h1>
+      {obj.name}
+      <h1>
+        Only React {number} <img src={reactLogo} alt="React" />
+      </h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
