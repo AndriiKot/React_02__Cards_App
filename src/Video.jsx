@@ -1,4 +1,5 @@
-﻿function Video(props) {
+﻿
+function Video(props) {
   const { title, channelName, img } = props;
   return (
     <>
