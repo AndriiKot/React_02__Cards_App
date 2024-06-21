@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-
+  const number = '02'
   return (
     <>
-      <h1>Only React 02</h1>
+      <h1>Only React {number}</h1>
     </>
   )
 }
