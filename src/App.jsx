@@ -11,6 +11,10 @@ function App() {
         <img src={reactLogo} alt="Video image" />
         <p>Video 1</p>
         <p>React JS</p>
+        <div>
+          <p>Linkes: 0</p>
+          <button>like</button>
+        </div>
       </div>
     </div>
     </>
