@@ -9,7 +9,7 @@ function App() {
   }
   return (
     <>
-      {obj.name}
+      {obj}
       <h1>
         Only React {number} <img src={reactLogo} alt="React" />
       </h1>
