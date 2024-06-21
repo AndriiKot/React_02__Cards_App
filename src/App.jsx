@@ -8,7 +8,9 @@ function App() {
     <>
     <div>
       <div>
-        <img src={reactLogo} alt="React logo" />
+        <img src={reactLogo} alt="Video image" />
+        <p>Video 1</p>
+        <p>React JS</p>
       </div>
     </div>
     </>
