@@ -6,7 +6,7 @@ function Video(props) {
   const [likes, setLikes] = useState(0);
 
   console.log(title);
-  
+
   function increaseByOneLike() {
     setLikes((like) => like + 1);
   }
