@@ -6,11 +6,11 @@ function App() {
   const number = "02";
   return (
     <>
-      <h1>
-        Only React {number} <img src={reactLogo} alt="React" />
-      </h1>
-      <p>Andrii  </p>
-      <p>https://github.com/AndriiKot</p>
+    <div>
+      <div>
+        <img src={reactLogo} alt="React logo" />
+      </div>
+    </div>
     </>
   );
 }
