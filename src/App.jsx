@@ -1,12 +1,12 @@
 import "./App.css";
+import reactLogo from "./assets/react.svg";
 import Video from "./Video";
 
 function App() {
-  const number = "02";
   return (
     <>
       <div className="video-container">
-        <Video title='Video 1' />
+        <Video title="Video 2" channelName="React JS" img={reactLogo} />
       </div>
     </>
   );
