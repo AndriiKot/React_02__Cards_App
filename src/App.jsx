@@ -7,6 +7,11 @@ function App() {
     <>
       <div className="video-container">
         <Video />
+        <Video />
+        <Video />
+        <Video />
+        <Video />
+        <Video />
       </div>
     </>
   );
