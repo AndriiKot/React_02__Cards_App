@@ -4,9 +4,6 @@ import "./App.css";
 
 function App() {
   const number = "02";
-  const obj = {
-    name: "Andrii",
-  }
   return (
     <>
       <h1>
