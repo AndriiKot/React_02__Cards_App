@@ -2,6 +2,11 @@
 
 function Video(props) {
   const { title, channelName, img } = props;
+
+  function increaseByOneLike() {
+    console.log("like");
+  }
+
   return (
     <>
       <div className="video">
@@ -10,7 +15,7 @@ function Video(props) {
         <p>{channelName}</p>
         <div className="video-footer">
           <p>Linkes: 0</p>
-          <button>like</button>
+          <button onClick={increaseByOneLike}>like</button>
         </div>
       </div>
     </>
