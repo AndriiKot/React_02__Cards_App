@@ -2,7 +2,7 @@
 
 export const VIDEOS = [
   {
-    id: 2,
+    id: 1,
     title: "Video 1",
     channelName: "React JS",
     img: reactLogo,
