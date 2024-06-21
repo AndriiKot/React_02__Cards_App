@@ -1,4 +1,5 @@
-﻿
+﻿import "./Video.css";
+
 function Video(props) {
   const { title, channelName, img } = props;
   return (
