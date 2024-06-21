@@ -9,7 +9,8 @@ function App() {
       <h1>
         Only React {number} <img src={reactLogo} alt="React" />
       </h1>
-      <p>Some text </p>
+      <p>Andrii  </p>
+      <p>https://github.com/AndriiKot</p>
     </>
   );
 }
