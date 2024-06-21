@@ -1,10 +1,13 @@
-﻿import "./Video.css";
+﻿import { useState } from "react";
+import "./Video.css";
+
 
 function Video(props) {
   const { title, channelName, img } = props;
+  const [likes, setLikes] = useState(0);
 
   function increaseByOneLike() {
-    console.log("like");
+    console.log(likes);
   }
 
   return (
