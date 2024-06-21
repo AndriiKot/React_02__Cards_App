@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="video-container">
-        <Video title='Video 2' />
+        <Video title='Video 1' />
       </div>
     </>
   );
