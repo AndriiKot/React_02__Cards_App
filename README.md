@@ -24,3 +24,5 @@
   </span>
 
 </div>
+
+![Only React 02 v0.5.0](https://github.com/AndriiKot/React_only__02/blob/main/__demo__/images/Only_React_02__v0_5_0__.png)
