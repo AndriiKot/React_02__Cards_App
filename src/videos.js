@@ -44,4 +44,16 @@ export const VIDEOS = [
     channelName: "React JS",
     img: reactLogo,
   },
+  {
+    id: 8,
+    title: "Video 8",
+    channelName: "React JS",
+    img: reactLogo,
+  },
+  {
+    id: 9,
+    title: "Video 9",
+    channelName: "React JS",
+    img: reactLogo,
+  },
 ];
