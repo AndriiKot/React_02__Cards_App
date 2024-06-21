@@ -6,12 +6,7 @@ function App() {
   return (
     <>
       <div className="video-container">
-        <Video />
-        <Video />
-        <Video />
-        <Video />
-        <Video />
-        <Video />
+        <Video title='Video 2' />
       </div>
     </>
   );

@@ -1,11 +1,12 @@
 ﻿import reactLogo from "./assets/react.svg";
 
-function Video() {
+function Video(props) {
+    const { title } = props;
   return (
     <>
       <div className="video">
         <img className="video-image" src={reactLogo} alt="Video image" />
-        <p>Video 1</p>
+        <p>{title}</p>
         <p>React JS</p>
         <div className="video-footer">
           <p>Linkes: 0</p>
