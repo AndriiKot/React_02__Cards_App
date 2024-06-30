@@ -14,10 +14,12 @@ function CatCard(props) {
       <div className="cat-image-card">
         <img className="cat-image" src={src} alt={alt} />
         <div className="cat-footer">
-          <p>{title}</p>
+          <p className="cat-title">{title}</p>
           <div className="likes">
-            <p>Linkes: {likes}</p>
-            <button onClick={increaseByOneLike}>like</button>
+          <p className="cat-likes">Linkes: {likes}</p>
+          <button className="like-button" onClick={increaseByOneLike}>
+            like
+          </button>
           </div>
         </div>
       </div>
