@@ -1,13 +1,16 @@
 ﻿.cat-image-card {
   position: relative;
   .cat-image {
-    width: 100%;
+    position: absolute;
+    z-index: 0;
+    width: 100px;
     height: 300px;
     max-width: 350px;
     object-fit: cover;
     border-radius: 10px;
   }
   .cat-footer {
+    z-index: 1;
     position: absolute;
     width: 100%;
     bottom: 20%;
@@ -27,7 +30,6 @@
       align-items: center;
       button {
         margin-top: 10px;
-        /* flex-grow: 1; */
       }
     }
   }
