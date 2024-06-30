@@ -1,6 +1,4 @@
 import "./App.css";
-import Video from "./Video/Video";
-import { VIDEOS } from "./videos.js";
 import { IMAGES } from "./Cats/images.js";
 import CatCard from "./Cats/CatCard.jsx";
 
