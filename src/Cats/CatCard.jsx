@@ -1,5 +1,5 @@
 ﻿import { useState } from "react";
-import "./Video.css";
+import "./CatCard.css";
 
 function CatCard(props) {
   const { id, src, alt, title } = props;
