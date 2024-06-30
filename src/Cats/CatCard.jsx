@@ -1,8 +1,8 @@
 ﻿import { useState } from "react";
 import "./Video.css";
 
-function Video(props) {
-  const { title, channelName, img } = props;
+function CatCard(props) {
+  const { id, src, alt, title } = props;
   const [likes, setLikes] = useState(0);
 
   function increaseByOneLike() {
@@ -11,11 +11,10 @@ function Video(props) {
 
   return (
     <>
-      <div className="video">
-        <img className="video-image" src={img} alt="Video image" />
+      <div className="cat-image-card">
+        <img className="card-image-{id}" src={src} alt={alt} />
         <p>{title}</p>
-        <p>{channelName}</p>
-        <div className="video-footer">
+        <div className="cat-footer">
           <p>Linkes: {likes}</p>
           <button onClick={increaseByOneLike}>like</button>
         </div>
@@ -24,4 +23,4 @@ function Video(props) {
   );
 }
 
-export default Video;
+export default CatCard;
