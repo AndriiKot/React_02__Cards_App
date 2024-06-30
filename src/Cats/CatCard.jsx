@@ -12,7 +12,7 @@ function CatCard(props) {
   return (
     <>
       <div className="cat-image-card">
-        <img className={`card-image-${id}`} src={src} alt={alt} />
+        <img className="cat-image" src={src} alt={alt} />
         <p>{title}</p>
         <div className="cat-footer">
           <p>Linkes: {likes}</p>
