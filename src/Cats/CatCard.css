@@ -2,12 +2,12 @@
   position: relative;
 
   .cat-image {
-    width: 100%;
-    height: 300px;
     max-width: 350px;
     object-fit: cover;
     border-radius: 10px;
+    aspect-ratio: 7 / 6;
   }
+
   .cat-footer {
     position: absolute;
     width: 100%;

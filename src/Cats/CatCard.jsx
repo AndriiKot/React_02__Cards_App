@@ -16,10 +16,10 @@ function CatCard(props) {
         <div className="cat-footer">
           <p className="cat-title">{title}</p>
           <div className="likes">
-          <p className="cat-likes">Linkes: {likes}</p>
-          <button className="like-button" onClick={increaseByOneLike}>
-            like
-          </button>
+            <p className="cat-likes">Linkes: {likes}</p>
+            <button className="like-button" onClick={increaseByOneLike}>
+              like
+            </button>
           </div>
         </div>
       </div>
