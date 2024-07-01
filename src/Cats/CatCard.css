@@ -1,8 +1,7 @@
 ﻿.cat-image-card {
   position: relative;
-  
+
   .cat-image {
-    display: block;
     width: 100%;
     height: 300px;
     max-width: 350px;
