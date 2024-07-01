@@ -7,11 +7,10 @@
     border-radius: 10px;
     aspect-ratio: 7 / 6;
   }
-
   .cat-footer {
     position: absolute;
     width: 100%;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.1);
@@ -20,7 +19,10 @@
     border-radius: 0 0 10px 10px;
     .cat-title {
       text-align: center;
+      margin: 0;
     }
+
+      
     .likes {
       display: flex;
       justify-content: space-between;
